@@ -1,0 +1,26 @@
+{
+  "name": "next_train",
+  "version": "0.0.0-2",
+  "description": "Tells when is next train",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "repository": "",
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "subdomain": "next",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "csv": "~0.2.1",
+    "levelup": "~0.1.2",
+    "ngeohash": "~0.2.0",
+    "lodash": "~0.5.2",
+    "tako": "~0.3.0",
+    "rimraf": "~2.0.2",
+    "leveldb": "~0.7.1"
+  }
+}
